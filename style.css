@@ -42,5 +42,7 @@ body{
   }
   .half-width, .half{
     margin-bottom: 80px;
+    border: #00FA9A;
   }
+  
   
