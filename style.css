@@ -1,74 +1,84 @@
 body{
-   
+  margin: 0;
     font-family: "Playwrite DE Grund", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
       background-color:black;
-      color:#FF1493;
-      margin: 0px;
-      padding: 5px;
+      color:red;
+     
 }
 h1{
-    color: red;
-    text-align: center;
-}
-p{
-  font-size:20px;
- 
-}
-h3{
-  margin-bottom: 0px;
-}
-.half-width{
-  width: 50%;
-  float: left;
-}
-img{
-  width:100%;
-}
-.link-buttton{
-  text-decoration: none;
-background-image: linear-gradient(45deg, 	#00FA9A,	#00BFFF, #32CD32);
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: white;
-  font-size:20px;
-font-weight: 700px;
+  font-size:30px;
 }
 
-h1{
-    color: red;
-    text-align: center;
+
+h2{
+ font-size: 34px;
 }
 p{
-  font-size:20px;
- 
+ color: green;
+font-size: 22px                                                               ;
 }
-h3{
-  margin-bottom: 0px;
+.orange-highlight{
+ color: orange;
 }
 .half-width{
-  width: 50%;
-  float: left;
+ width: 40%;
+ float: left;
+ margin-left: 5%;
+ padding-left:2%;
+
 }
-img{
-  width:100%;
+.half-width img{
+ width: 100%;
+
 }
-.link-buttton{
-  text-decoration: none;
-background-image: linear-gradient(45deg, 	#00FA9A,	#00BFFF, #32CD32);
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: white;
-  font-size:20px;
-font-weight: 700px;
+.top-banner{
+ background-image: url("developer-portfolio/top-banner.png");
+ background-repeat: no-repeat;
 }
-.half{
-  width: 50%;
-  float:left;
+section{
+height: 500px;
+padding-bottom: 100px;
 }
-.half-width, .half{
-  margin-bottom: 80px;
-  border: #00FA9A;
-} 
+.link-buttoon{
+ text-decoration: none;
+ background-image: linear-gradient(45deg, blue,cyan);
+ padding:10px;
+ border-radius: 5px;
+ color:white;
+ font-weight: 800px;
+ font-size: 22px;
+
+}
+.drem{
+
+background-image: url(dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+
+}
+.single-experience{
+ box-shadow: 10px 10px 40px gray;
+ border-radius: 5px;
+ height: 70%;
+
+}
+
+#full-stack{
+ border-left: 7px solid ;
+ border-image:linear-gradient(180deg, lightsalmon,tomato) ;
+ border-image-slice:1 ;
+}
+
+#baby-web{
+ border-left: 7px solid ;
+ border-image:linear-gradient(180deg, blue,cyan) ;
+ border-image-slice:1 ;
+}
+
+footer{
+  text-align: center;
+box-shadow:  10px 10px 40px ;
+}
+ 
+
+
